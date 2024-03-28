@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "PORT=3005 mocha --require @babel/register --recursive --exit --ui tdd tests/"
+    "test": "PORT=3005 mocha --require @babel/register --recursive --exit --ui tdd tests/",
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "@babel/core": "^7.7.5",
